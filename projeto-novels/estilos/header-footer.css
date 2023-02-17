@@ -42,6 +42,7 @@ header button:active {
 }
 
 footer {
+    min-height: 75px;
     background-color: var(--corEscura);
     margin: 15px 0px 0px 0px;
     padding: 10px;
