@@ -1,0 +1,16 @@
+Pra mim mesmo ou para outra pessoa que esteja com dificuldade de entender a organização:
+
+root.css;
+    Esse arquivo armazena as variaveis de fonte e de cores do site inteiro, uma alteração nessas variaveis e o site inteiro muda, altera tambem o margin, padding, box-sizing, text-decoration, background-color e o font-size.
+    Uso ele para economizar linhas e facilitar mudanças "globais" no site.
+
+header-footer;
+    Bem auto explicativo, mudanças no cabeçalho e no rodapé do site inteiro.
+
+main;
+    mudançass na página principal.
+
+obra:
+    mudança nas paginas das obras.
+
+volume: mudança nas paginas dos volumes.

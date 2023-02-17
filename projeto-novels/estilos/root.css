@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+:root {
+    --corMaisEscura: #000;
+    --corEscura: #333333;
+    --corClara: #4F4F4F;
+    --corMaisClara: #FFF;
+
+    --fonteH1: 'Times New Roman', Times, serif;
+    --fonteH2: 'Times New Roman', Times, serif;
+    --fonteH3: 'Times New Roman', Times, serif;
+    --fonteP: Arial, Helvetica, sans-serif;
+        /*
+    Filtro pra ajudar a ler de noite, a ideia é diminuir a ardencia nos olhos.
+    01 - 25%
+    02 - 30%
+    03 - 40%
+    04 - 50%
+    */
+    --corFiltroClara01: rgb(192, 180, 138);
+    --corFiltroEscura01: rgb(31, 28, 9);
+    --corFiltroClara02: rgb(184, 175, 132);
+    --corFiltroEscura02: rgb(34, 32, 11);
+    --corFiltroClara03: rgb(169, 160, 117);
+    --corFiltroEscura03: rgb(35, 35, 11);
+    --corFiltroClara04: rgb(151, 142, 103);
+    --corFiltroEscura04: rgb(35, 33, 10);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    background-color: var(--corClara);
+}
